@@ -1,0 +1,4 @@
+curl -X POST -d "username=admin&password=admin" http://127.0.0.1:8000/accounts/get_auth_token/
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"username":"admin","password":"admin"}' http://127.0.0.1:8000/accounts/get_auth_token/
